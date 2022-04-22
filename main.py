@@ -56,5 +56,6 @@ def main():
             assert location.x is not None and location.y is not None and location.name is not None and location.address is not None and location.youth is not None
             writer.writerow([location.name, location.address, location.youth, location.x, location.y])
 
+
 if __name__ == "__main__":
     main()

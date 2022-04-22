@@ -2,7 +2,7 @@ from arcgis.geocoding import geocode
 from arcgis.gis import GIS
 import csv
 
-API_KEY = "AAPKe8b6e264681244eeb1f1bf14ef5141baGa9LTw55OAhHSw8-GYTEoxz5e-y5T2OO7ykh_eqFJEPRODndP5Iwx6gIkMj3xDfm"
+API_KEY = ""
 MENTAL_HEALTH_DATABASE = "/Users/nicholasbarrow/GitHub/dc-mental-health-centers/dc-mental-health-centers-database.csv"
 gis = GIS(api_key=API_KEY)
 
